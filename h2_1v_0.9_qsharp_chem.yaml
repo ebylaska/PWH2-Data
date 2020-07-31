@@ -1,0 +1,69 @@
+"$schema": https://raw.githubusercontent.com/Microsoft/Quantum/master/Chemistry/Schema/broombridge-0.1.schema.json
+
+format: {version: '0.1'}
+generator: {source: nwchem, version: 7.0.0}
+integral_sets:
+- basis_set: {name: 100Ry, type: planewave}
+  coulomb_repulsion: {units: hartree, value: 0.5879747211}
+  energy_offset: {units: hartree, value: 0.0}
+  fci_energy: {lower: 0.0, units: hartree, upper: 0.0, value: 0.0}
+  geometry:
+    atoms:
+    - coords: [0.0, 0.0, -0.45]
+      name: H
+    - coords: [0.0, 0.0, 0.45]
+      name: H
+    coordinate_system: cartesian
+    symmetry: c1
+    units: angstrom
+  hamiltonian:
+    one_electron_integrals:
+      format: sparse
+      units: hartree
+      values:
+      - [1, 1, -1.1553081161]
+      - [2, 1, -2.19636e-05]
+      - [2, 2, -0.5903081536]
+      - [1, 1, -1.1559084596]
+      - [2, 1, -1.329e-05]
+      - [2, 2, -0.5908634952]
+      - [1, 1, -1.1564686381]
+      - [2, 1, -9.2368e-06]
+      - [2, 2, -0.5913477723]
+      - [1, 1, -1.1564987996]
+      - [2, 1, -7.2705e-06]
+      - [2, 2, -0.591337034]
+    two_electron_integrals:
+      format: sparse
+      index_convention: mulliken
+      units: hartree
+      values:
+      - [1, 1, 1, 1, 0.6050619584]
+      - [1, 1, 2, 1, 2.13554e-05]
+      - [1, 1, 2, 2, 0.596116406]
+      - [2, 1, 2, 1, 0.1602477132]
+      - [2, 1, 2, 2, 2.71221e-05]
+      - [2, 2, 2, 2, 0.6333428112]
+      - [1, 1, 1, 1, 0.605347628]
+      - [1, 1, 2, 1, 1.32801e-05]
+      - [1, 1, 2, 2, 0.5964751256]
+      - [2, 1, 2, 1, 0.1604282093]
+      - [2, 1, 2, 2, 1.67007e-05]
+      - [2, 2, 2, 2, 0.6338687478]
+      - [1, 1, 1, 1, 0.6056010511]
+      - [1, 1, 2, 1, 9.2362e-06]
+      - [1, 1, 2, 2, 0.5967278826]
+      - [2, 1, 2, 1, 0.1605447158]
+      - [2, 1, 2, 2, 1.16561e-05]
+      - [2, 2, 2, 2, 0.6341045261]
+      - [1, 1, 1, 1, 0.6056165937]
+      - [1, 1, 2, 1, 7.2701e-06]
+      - [1, 1, 2, 2, 0.5967733889]
+      - [2, 1, 2, 1, 0.1605628534]
+      - [2, 1, 2, 2, 9.1917e-06]
+      - [2, 2, 2, 2, 0.6341818349]
+  metadata: {molecule_name: unknown}
+  n_electrons: 2
+  n_orbitals: 2
+  scf_energy: {units: hartree, value: -1.119406284}
+  scf_energy_offset: {units: hartree, value: 0.0}
