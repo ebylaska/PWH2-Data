@@ -1,0 +1,814 @@
+Operator pool: singlet-adapted-uccsd
+Number of operators in the pool: 24
+Iteration: 1
+Computing [H, A]
+Printing commutators with absolute value above 0.000000
+Number of instructions for commutator calculation: 735
+E() = -1.12231865511e-20
+Number of instructions for commutator calculation: 736
+E() = -2.14059999992e-06
+[H,1] = -2.14059999992e-06
+Number of instructions for commutator calculation: 740
+E() = -2.2188e-06
+[H,2] = -2.2188e-06
+Number of instructions for commutator calculation: 736
+E() = -9.00000000025e-09
+[H,3] = -9.00000000025e-09
+Number of instructions for commutator calculation: 2352
+E() = 0.640969501154
+[H,5] = 0.640969501154
+Number of instructions for commutator calculation: 4042
+E() = -2.86576236279e-06
+[H,7] = -2.86576236279e-06
+Number of instructions for commutator calculation: 3998
+E() = -0.00346621141985
+[H,9] = -0.00346621141985
+Number of instructions for commutator calculation: 3982
+E() = -0.168443781292
+[H,11] = -0.168443781292
+Number of instructions for commutator calculation: 2352
+E() = 0.171408689076
+[H,13] = 0.171408689076
+Number of instructions for commutator calculation: 4018
+E() = -0.00343219109839
+[H,15] = -0.00343219109839
+Number of instructions for commutator calculation: 4002
+E() = 5.44528790056e-05
+[H,17] = 5.44528790056e-05
+Number of instructions for commutator calculation: 2368
+E() = 0.13241384313
+[H,19] = 0.13241384313
+Number of instructions for commutator calculation: 3998
+E() = 0.000268318173504
+[H,21] = 0.000268318173504
+Number of instructions for commutator calculation: 2352
+E() = 0.144669077319
+[H,23] = 0.144669077319
+Max gradient component: [H, 5] = 0.640969501154 a.u.
+Norm of gradient vector: 0.71209731419 a.u.
+vqe optimization of current ansatz.
+020-08-05 10:20:25.633] [xacc-logger] [info] Chosen optimizer does not support gradients. Using default.
+E(0.000000) = -0.7600910174
+E(1.570796) = -0.927955197035
+E(3.141593) = -0.531833664266
+E(2.356194) = -0.701794005424
+E(1.178097) = -0.977186648785
+E(0.785398) = -0.958832389215
+E(0.981748) = -0.976600242943
+E(1.276272) = -0.970970567346
+E(1.129010) = -0.978676159996
+E(1.079922) = -0.979075331177
+E(1.030835) = -0.978382242952
+E(1.055379) = -0.978865235108
+E(1.092194) = -0.979077952141
+E(1.098330) = -0.979053651672
+E(1.089126) = -0.979083699427
+E(1.086058) = -0.979085179157
+E(1.082990) = -0.979082389092
+E(1.084524) = -0.979084317442
+E(1.086825) = -0.979085209104
+Energy at ADAPT iteration 1: -0.979085179157
+Parameters at ADAPT iteration 1: 1.0860583793 
+Ansatz at ADAPT iteration 1: 5 
+Iteration: 2
+Computing [H, A]
+Printing commutators with absolute value above 0.000000
+Number of instructions for commutator calculation: 735
+E(1.086058) = 2.05714604643e-06
+[H,0] = 2.05714604643e-06
+Number of instructions for commutator calculation: 736
+E(1.086058) = -0.10749484891
+[H,1] = -0.10749484891
+Number of instructions for commutator calculation: 740
+E(1.086058) = 0.00404273822451
+[H,2] = 0.00404273822451
+Number of instructions for commutator calculation: 736
+E(1.086058) = -7.74659141511e-05
+[H,3] = -7.74659141511e-05
+Number of instructions for commutator calculation: 2352
+E(1.086058) = 0.000427172449133
+[H,5] = 0.000427172449133
+Number of instructions for commutator calculation: 4042
+E(1.086058) = 1.18710328735e-06
+[H,7] = 1.18710328735e-06
+Number of instructions for commutator calculation: 3998
+E(1.086058) = -5.20086912524e-06
+[H,9] = -5.20086912524e-06
+Number of instructions for commutator calculation: 3982
+E(1.086058) = -0.000237843135948
+[H,11] = -0.000237843135948
+Number of instructions for commutator calculation: 2352
+E(1.086058) = -0.0210898563866
+[H,13] = -0.0210898563866
+Number of instructions for commutator calculation: 4018
+E(1.086058) = 0.00173966354739
+[H,15] = 0.00173966354739
+Number of instructions for commutator calculation: 4002
+E(1.086058) = -3.2736920566e-05
+[H,17] = -3.2736920566e-05
+Number of instructions for commutator calculation: 2368
+E(1.086058) = 0.00272885235346
+[H,19] = 0.00272885235346
+Number of instructions for commutator calculation: 3998
+E(1.086058) = -0.00036508126705
+[H,21] = -0.00036508126705
+Number of instructions for commutator calculation: 2352
+E(1.086058) = -0.0150838738269
+[H,23] = -0.0150838738269
+Max gradient component: [H, 1] = -0.10749484891 a.u.
+Norm of gradient vector: 0.110700695871 a.u.
+vqe optimization of current ansatz.
+020-08-05 10:31:51.538] [xacc-logger] [info] Chosen optimizer does not support gradients. Using default.
+E(0.000000,0) = -0.7600910174
+E(1.570796,0) = -0.594237363978
+E(0.000000,1.5708) = -0.927955197035
+E(-1.104009,2.68819) = -0.570602445646
+E(0.762401,1.75946) = -0.852088091395
+E(-0.019109,1.17856) = -0.978174944183
+E(-0.208516,0.83456) = -0.972652453486
+E(0.332878,1.00444) = -0.954324521059
+E(-0.165630,1.30927) = -0.975515897367
+E(-0.080815,1.1022) = -0.983074623901
+E(-0.124432,1.01425) = -0.983749130669
+E(-0.045392,0.956019) = -0.977507385626
+E(-0.216442,1.04849) = -0.98805781392
+E(-0.310132,1.07783) = -0.991147140265
+E(-0.407172,1.06294) = -0.992769916635
+E(-0.459709,1.14587) = -0.993611928041
+E(-0.557855,1.1435) = -0.994464640362
+E(-0.644943,1.18882) = -0.993623218006
+E(-0.569026,1.0957) = -0.994461417385
+E(-0.581714,1.14926) = -0.994462240827
+E(-0.534881,1.15214) = -0.994220397693
+E(-0.560670,1.13156) = -0.994579066694
+E(-0.563425,1.1196) = -0.994616673579
+E(-0.556687,1.10934) = -0.994572166038
+E(-0.575574,1.11787) = -0.994632231227
+E(-0.579015,1.10609) = -0.994572259086
+E(-0.577688,1.12363) = -0.994638238975
+E(-0.583383,1.12591) = -0.994640238298
+E(-0.582934,1.13203) = -0.994620847368
+E(-0.584790,1.12319) = -0.994643084666
+E(-0.586832,1.1209) = -0.994642121893
+E(-0.585534,1.12346) = -0.994643277902
+E(-0.587317,1.12097) = -0.994642198987
+E(-0.584765,1.12304) = -0.99464308722
+E(-0.587607,1.1212) = -0.994642456876
+E(-0.586571,1.12233) = -0.994643306067
+E(-0.587785,1.12327) = -0.994643651578
+E(-0.590208,1.12515) = -0.994642978743
+Energy at ADAPT iteration 2: -0.994643651578
+Parameters at ADAPT iteration 2: -0.587784500542 1.12327100607 
+Ansatz at ADAPT iteration 2: 5 1 
+Iteration: 3
+Computing [H, A]
+Printing commutators with absolute value above 0.000000
+Number of instructions for commutator calculation: 735
+E(-0.587785,1.12327) = 1.47907222269e-06
+[H,0] = 1.47907222269e-06
+Number of instructions for commutator calculation: 736
+E(-0.587785,1.12327) = -0.000106727974778
+[H,1] = -0.000106727974778
+Number of instructions for commutator calculation: 740
+E(-0.587785,1.12327) = 0.00150607035066
+[H,2] = 0.00150607035066
+Number of instructions for commutator calculation: 736
+E(-0.587785,1.12327) = -3.78452235201e-05
+[H,3] = -3.78452235201e-05
+Number of instructions for commutator calculation: 2352
+E(-0.587785,1.12327) = 0.000261686529745
+[H,5] = 0.000261686529745
+Number of instructions for commutator calculation: 4042
+E(-0.587785,1.12327) = 2.03566110391e-06
+[H,7] = 2.03566110391e-06
+Number of instructions for commutator calculation: 3998
+E(-0.587785,1.12327) = -0.00093885062048
+[H,9] = -0.00093885062048
+Number of instructions for commutator calculation: 3982
+E(-0.587785,1.12327) = -0.0452815814192
+[H,11] = -0.0452815814192
+Number of instructions for commutator calculation: 2352
+E(-0.587785,1.12327) = 0.00470942290858
+[H,13] = 0.00470942290858
+Number of instructions for commutator calculation: 4018
+E(-0.587785,1.12327) = 0.000481002849548
+[H,15] = 0.000481002849548
+Number of instructions for commutator calculation: 4002
+E(-0.587785,1.12327) = -1.16772787138e-05
+[H,17] = -1.16772787138e-05
+Number of instructions for commutator calculation: 2368
+E(-0.587785,1.12327) = -0.000367831669197
+[H,19] = -0.000367831669197
+Number of instructions for commutator calculation: 3998
+E(-0.587785,1.12327) = 0.000146203448868
+[H,21] = 0.000146203448868
+Number of instructions for commutator calculation: 2352
+E(-0.587785,1.12327) = 0.00650488141076
+[H,23] = 0.00650488141076
+Max gradient component: [H, 11] = -0.0452815814192 a.u.
+Norm of gradient vector: 0.0460275236733 a.u.
+vqe optimization of current ansatz.
+020-08-05 10:48:57.511] [xacc-logger] [info] Chosen optimizer does not support gradients. Using default.
+E(0.000000,0,0) = -0.7600910174
+E(1.570796,0,0) = -0.329134279928
+E(0.000000,1.5708,0) = -0.594237363978
+E(0.000000,0,1.5708) = -0.927955197036
+E(-1.377769,-0.530234,2.10746) = -0.767399871363
+E(0.626599,-0.332808,1.90764) = -0.849777299363
+E(0.030753,0.754225,1.7877) = -0.847593237522
+E(-0.327001,-0.166434,1.71073) = -0.892143247836
+E(0.010055,-0.0404437,1.18031) = -0.979216181144
+E(0.012719,0.177912,0.853931) = -0.9560695177
+E(0.238943,-0.338032,1.06514) = -0.980814317025
+E(0.080356,-0.444798,1.02038) = -0.988928385341
+E(0.079939,-0.469249,1.03661) = -0.989828956857
+E(-0.056178,-0.607991,1.06447) = -0.994938298167
+E(-0.089115,-0.788979,1.13311) = -0.994707876047
+E(-0.051951,-0.620792,1.04546) = -0.994211485887
+E(-0.235519,-0.550019,1.11951) = -0.993446071736
+E(-0.112428,-0.663364,0.884686) = -0.982757931373
+E(-0.009787,-0.583039,1.14732) = -0.994678021045
+E(-0.022297,-0.61956,1.03089) = -0.992916121856
+E(-0.055723,-0.605231,1.06259) = -0.994889136181
+E(-0.100585,-0.606073,1.0853) = -0.995776371103
+E(-0.091889,-0.58915,1.13055) = -0.995732400167
+E(-0.098244,-0.62626,1.08883) = -0.995797521336
+E(-0.146007,-0.632987,1.09794) = -0.995840857066
+E(-0.159252,-0.652758,1.09194) = -0.995711006853
+E(-0.144445,-0.637949,1.10715) = -0.995871269424
+E(-0.145850,-0.622358,1.12605) = -0.995730269176
+E(-0.132666,-0.641052,1.10566) = -0.995925756576
+E(-0.128767,-0.652554,1.1039) = -0.995920083225
+E(-0.122584,-0.637671,1.11178) = -0.995951485863
+E(-0.114931,-0.633001,1.1034) = -0.995946834847
+E(-0.116484,-0.634582,1.12197) = -0.995922309796
+E(-0.119534,-0.636127,1.11688) = -0.995943732942
+E(-0.123726,-0.635021,1.1118) = -0.995949272503
+E(-0.125465,-0.642212,1.10883) = -0.995946308948
+E(-0.120453,-0.637115,1.10965) = -0.995955223681
+E(-0.117387,-0.6372,1.10974) = -0.995956992053
+E(-0.116192,-0.638329,1.10715) = -0.99595385312
+E(-0.116835,-0.634183,1.10966) = -0.995957843303
+E(-0.116275,-0.633958,1.11107) = -0.995957732471
+E(-0.116761,-0.6343,1.10947) = -0.99595780094
+E(-0.117638,-0.632893,1.10945) = -0.995957586966
+E(-0.116953,-0.634521,1.10982) = -0.995957788272
+E(-0.115547,-0.634352,1.10884) = -0.995957556104
+E(-0.117692,-0.635432,1.1099) = -0.995957414063
+E(-0.116176,-0.634157,1.10926) = -0.995957832304
+Energy at ADAPT iteration 3: -0.995957843303
+Parameters at ADAPT iteration 3: -0.116834522676 -0.634183393582 1.1096570048 
+Ansatz at ADAPT iteration 3: 5 1 11 
+Iteration: 4
+Computing [H, A]
+Printing commutators with absolute value above 0.000000
+Number of instructions for commutator calculation: 735
+E(-0.116835,-0.634183,1.10966) = 1.32395043093e-05
+[H,0] = 1.32395043093e-05
+Number of instructions for commutator calculation: 736
+E(-0.116835,-0.634183,1.10966) = 0.000239511065525
+[H,1] = 0.000239511065525
+Number of instructions for commutator calculation: 740
+E(-0.116835,-0.634183,1.10966) = 0.00259161953802
+[H,2] = 0.00259161953802
+Number of instructions for commutator calculation: 736
+E(-0.116835,-0.634183,1.10966) = -8.35249915675e-05
+[H,3] = -8.35249915675e-05
+Number of instructions for commutator calculation: 2352
+E(-0.116835,-0.634183,1.10966) = 0.000204263868013
+[H,5] = 0.000204263868013
+Number of instructions for commutator calculation: 4042
+E(-0.116835,-0.634183,1.10966) = 1.93978432794e-05
+[H,7] = 1.93978432794e-05
+Number of instructions for commutator calculation: 3998
+E(-0.116835,-0.634183,1.10966) = -0.000979844248218
+[H,9] = -0.000979844248218
+Number of instructions for commutator calculation: 3982
+E(-0.116835,-0.634183,1.10966) = 0.000480149476914
+[H,11] = 0.000480149476914
+Number of instructions for commutator calculation: 2352
+E(-0.116835,-0.634183,1.10966) = 0.00149433212897
+[H,13] = 0.00149433212897
+Number of instructions for commutator calculation: 4018
+E(-0.116835,-0.634183,1.10966) = 0.0011886726221
+[H,15] = 0.0011886726221
+Number of instructions for commutator calculation: 4002
+E(-0.116835,-0.634183,1.10966) = -4.08804619198e-05
+[H,17] = -4.08804619198e-05
+Number of instructions for commutator calculation: 2368
+E(-0.116835,-0.634183,1.10966) = 0.000964235852067
+[H,19] = 0.000964235852067
+Number of instructions for commutator calculation: 3998
+E(-0.116835,-0.634183,1.10966) = 0.000106385256483
+[H,21] = 0.000106385256483
+Number of instructions for commutator calculation: 2352
+E(-0.116835,-0.634183,1.10966) = 0.00479036704173
+[H,23] = 0.00479036704173
+Max gradient component: [H, 23] = 0.00479036704173 a.u.
+Norm of gradient vector: 0.00596238833742 a.u.
+ADAPT-vqe converged in 3 iterations.
+ADAPT-vqe energy: -0.995957843303 a.u.
+Operators in the ansatz
+(0,-0.176777) X0 Y1 X5 X6 + (0,0.176777) X0 X1 Y5 X6 + (0,0.176777) Y0 X1 Y5 Y6 + (0,-0.176777) X0 Y1 Y5 Y6 + (0,-0.176777) X0 X1 X5 Y6 + (0,0.176777) Y0 Y1 Y5 X6 + (0,0.176777) Y0 X1 X5 X6 + (0,-0.176777) Y0 Y1 X5 Y6
+(0,0.25) Y5 Z6 X7 + (0,-0.25) X5 Z6 Y7 + (0,0.25) Y0 Z1 X2 + (0,-0.25) X0 Z1 Y2
+(0,-0.0883883) Y0 Y1 X5 Z6 Z7 Z8 Y9 + (0,0.0883883) X0 X1 Y5 Z6 Z7 Z8 X9 + (0,-0.0883883) X0 X1 X5 Z6 Z7 Z8 Y9 + (0,0.0883883) Y0 Z1 Z2 Z3 Y4 Y5 X6 + (0,-0.0883883) X0 Z1 Z2 Z3 Y4 X5 X6 + (0,0.0883883) Y0 Z1 Z2 Z3 X4 X5 X6 + (0,-0.0883883) X0 Z1 Z2 Z3 X4 X5 Y6 + (0,-0.0883883) X0 Y1 Y5 Z6 Z7 Z8 Y9 + (0,0.0883883) X0 Z1 Z2 Z3 X4 Y5 X6 + (0,-0.0883883) X0 Z1 Z2 Z3 Y4 Y5 Y6 + (0,-0.0883883) Y0 Z1 Z2 Z3 Y4 X5 Y6 + (0,0.0883883) Y0 Y1 Y5 Z6 Z7 Z8 X9 + (0,0.0883883) Y0 X1 Y5 Z6 Z7 Z8 Y9 + (0,0.0883883) Y0 Z1 Z2 Z3 X4 Y5 Y6 + (0,0.0883883) Y0 X1 X5 Z6 Z7 Z8 X9 + (0,-0.0883883) X0 Y1 X5 Z6 Z7 Z8 X9
+Optimal parameters: -0.116834522676 -0.634183393582 1.1096570048 
+Final ADAPT-vqe circuit
+X q0
+X q5
+H q0
+H q1
+H q5
+Rx(1.57079) q6
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+Rz(-0.176777*x0) q6
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+H q0
+H q1
+H q5
+Rx(-1.57079) q6
+Rx(1.57079) q0
+Rx(1.57079) q1
+Rx(1.57079) q5
+H q6
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+Rz(0.176777*x0) q6
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+Rx(-1.57079) q0
+Rx(-1.57079) q1
+Rx(-1.57079) q5
+H q6
+Rx(1.57079) q0
+Rx(1.57079) q1
+H q5
+Rx(1.57079) q6
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+Rz(-0.176777*x0) q6
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+Rx(-1.57079) q0
+Rx(-1.57079) q1
+H q5
+Rx(-1.57079) q6
+Rx(1.57079) q0
+H q1
+Rx(1.57079) q5
+Rx(1.57079) q6
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+Rz(0.176777*x0) q6
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+Rx(-1.57079) q0
+H q1
+Rx(-1.57079) q5
+Rx(-1.57079) q6
+H q0
+Rx(1.57079) q1
+Rx(1.57079) q5
+Rx(1.57079) q6
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+Rz(-0.176777*x0) q6
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+H q0
+Rx(-1.57079) q1
+Rx(-1.57079) q5
+Rx(-1.57079) q6
+H q0
+Rx(1.57079) q1
+H q5
+H q6
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+Rz(-0.176777*x0) q6
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+H q0
+Rx(-1.57079) q1
+H q5
+H q6
+Rx(1.57079) q0
+H q1
+H q5
+H q6
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+Rz(0.176777*x0) q6
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+Rx(-1.57079) q0
+H q1
+H q5
+H q6
+H q0
+H q1
+Rx(1.57079) q5
+H q6
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+Rz(0.176777*x0) q6
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+H q0
+H q1
+Rx(-1.57079) q5
+H q6
+Rx(1.57079) q0
+H q2
+CNOT q0,q1
+CNOT q1,q2
+Rz(0.250000*x1) q2
+CNOT q1,q2
+CNOT q0,q1
+Rx(-1.57079) q0
+H q2
+H q5
+Rx(1.57079) q7
+CNOT q5,q6
+CNOT q6,q7
+Rz(-0.250000*x1) q7
+CNOT q6,q7
+CNOT q5,q6
+H q5
+Rx(-1.57079) q7
+Rx(1.57079) q5
+H q7
+CNOT q5,q6
+CNOT q6,q7
+Rz(0.250000*x1) q7
+CNOT q6,q7
+CNOT q5,q6
+Rx(-1.57079) q5
+H q7
+H q0
+Rx(1.57079) q2
+CNOT q0,q1
+CNOT q1,q2
+Rz(-0.250000*x1) q2
+CNOT q1,q2
+CNOT q0,q1
+H q0
+Rx(-1.57079) q2
+Rx(1.57079) q0
+Rx(1.57079) q4
+H q5
+Rx(1.57079) q6
+CNOT q0,q1
+CNOT q1,q2
+CNOT q2,q3
+CNOT q3,q4
+CNOT q4,q5
+CNOT q5,q6
+Rz(-0.088388*x2) q6
+CNOT q5,q6
+CNOT q4,q5
+CNOT q3,q4
+CNOT q2,q3
+CNOT q1,q2
+CNOT q0,q1
+Rx(-1.57079) q0
+Rx(-1.57079) q4
+H q5
+Rx(-1.57079) q6
+Rx(1.57079) q0
+H q4
+Rx(1.57079) q5
+Rx(1.57079) q6
+CNOT q0,q1
+CNOT q1,q2
+CNOT q2,q3
+CNOT q3,q4
+CNOT q4,q5
+CNOT q5,q6
+Rz(0.088388*x2) q6
+CNOT q5,q6
+CNOT q4,q5
+CNOT q3,q4
+CNOT q2,q3
+CNOT q1,q2
+CNOT q0,q1
+Rx(-1.57079) q0
+H q4
+Rx(-1.57079) q5
+Rx(-1.57079) q6
+H q0
+Rx(1.57079) q1
+Rx(1.57079) q5
+Rx(1.57079) q9
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+CNOT q6,q7
+CNOT q7,q8
+CNOT q8,q9
+Rz(-0.088388*x2) q9
+CNOT q8,q9
+CNOT q7,q8
+CNOT q6,q7
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+H q0
+Rx(-1.57079) q1
+Rx(-1.57079) q5
+Rx(-1.57079) q9
+H q0
+H q4
+H q5
+Rx(1.57079) q6
+CNOT q0,q1
+CNOT q1,q2
+CNOT q2,q3
+CNOT q3,q4
+CNOT q4,q5
+CNOT q5,q6
+Rz(-0.088388*x2) q6
+CNOT q5,q6
+CNOT q4,q5
+CNOT q3,q4
+CNOT q2,q3
+CNOT q1,q2
+CNOT q0,q1
+H q0
+H q4
+H q5
+Rx(-1.57079) q6
+H q0
+Rx(1.57079) q4
+Rx(1.57079) q5
+Rx(1.57079) q6
+CNOT q0,q1
+CNOT q1,q2
+CNOT q2,q3
+CNOT q3,q4
+CNOT q4,q5
+CNOT q5,q6
+Rz(-0.088388*x2) q6
+CNOT q5,q6
+CNOT q4,q5
+CNOT q3,q4
+CNOT q2,q3
+CNOT q1,q2
+CNOT q0,q1
+H q0
+Rx(-1.57079) q4
+Rx(-1.57079) q5
+Rx(-1.57079) q6
+Rx(1.57079) q0
+Rx(1.57079) q4
+Rx(1.57079) q5
+H q6
+CNOT q0,q1
+CNOT q1,q2
+CNOT q2,q3
+CNOT q3,q4
+CNOT q4,q5
+CNOT q5,q6
+Rz(0.088388*x2) q6
+CNOT q5,q6
+CNOT q4,q5
+CNOT q3,q4
+CNOT q2,q3
+CNOT q1,q2
+CNOT q0,q1
+Rx(-1.57079) q0
+Rx(-1.57079) q4
+Rx(-1.57079) q5
+H q6
+Rx(1.57079) q0
+Rx(1.57079) q1
+Rx(1.57079) q5
+H q9
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+CNOT q6,q7
+CNOT q7,q8
+CNOT q8,q9
+Rz(0.088388*x2) q9
+CNOT q8,q9
+CNOT q7,q8
+CNOT q6,q7
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+Rx(-1.57079) q0
+Rx(-1.57079) q1
+Rx(-1.57079) q5
+H q9
+Rx(1.57079) q0
+H q1
+H q5
+H q9
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+CNOT q6,q7
+CNOT q7,q8
+CNOT q8,q9
+Rz(0.088388*x2) q9
+CNOT q8,q9
+CNOT q7,q8
+CNOT q6,q7
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+Rx(-1.57079) q0
+H q1
+H q5
+H q9
+H q0
+Rx(1.57079) q1
+H q5
+H q9
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+CNOT q6,q7
+CNOT q7,q8
+CNOT q8,q9
+Rz(-0.088388*x2) q9
+CNOT q8,q9
+CNOT q7,q8
+CNOT q6,q7
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+H q0
+Rx(-1.57079) q1
+H q5
+H q9
+Rx(1.57079) q0
+H q1
+Rx(1.57079) q5
+Rx(1.57079) q9
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+CNOT q6,q7
+CNOT q7,q8
+CNOT q8,q9
+Rz(0.088388*x2) q9
+CNOT q8,q9
+CNOT q7,q8
+CNOT q6,q7
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+Rx(-1.57079) q0
+H q1
+Rx(-1.57079) q5
+Rx(-1.57079) q9
+H q0
+H q1
+H q5
+Rx(1.57079) q9
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+CNOT q6,q7
+CNOT q7,q8
+CNOT q8,q9
+Rz(-0.088388*x2) q9
+CNOT q8,q9
+CNOT q7,q8
+CNOT q6,q7
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+H q0
+H q1
+H q5
+Rx(-1.57079) q9
+H q0
+H q4
+Rx(1.57079) q5
+H q6
+CNOT q0,q1
+CNOT q1,q2
+CNOT q2,q3
+CNOT q3,q4
+CNOT q4,q5
+CNOT q5,q6
+Rz(0.088388*x2) q6
+CNOT q5,q6
+CNOT q4,q5
+CNOT q3,q4
+CNOT q2,q3
+CNOT q1,q2
+CNOT q0,q1
+H q0
+H q4
+Rx(-1.57079) q5
+H q6
+H q0
+H q1
+Rx(1.57079) q5
+H q9
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+CNOT q6,q7
+CNOT q7,q8
+CNOT q8,q9
+Rz(0.088388*x2) q9
+CNOT q8,q9
+CNOT q7,q8
+CNOT q6,q7
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+H q0
+H q1
+Rx(-1.57079) q5
+H q9
+Rx(1.57079) q0
+Rx(1.57079) q1
+H q5
+Rx(1.57079) q9
+CNOT q0,q1
+CNOT q1,q5
+CNOT q5,q6
+CNOT q6,q7
+CNOT q7,q8
+CNOT q8,q9
+Rz(-0.088388*x2) q9
+CNOT q8,q9
+CNOT q7,q8
+CNOT q6,q7
+CNOT q5,q6
+CNOT q1,q5
+CNOT q0,q1
+Rx(-1.57079) q0
+Rx(-1.57079) q1
+H q5
+Rx(-1.57079) q9
+H q0
+Rx(1.57079) q4
+H q5
+H q6
+CNOT q0,q1
+CNOT q1,q2
+CNOT q2,q3
+CNOT q3,q4
+CNOT q4,q5
+CNOT q5,q6
+Rz(-0.088388*x2) q6
+CNOT q5,q6
+CNOT q4,q5
+CNOT q3,q4
+CNOT q2,q3
+CNOT q1,q2
+CNOT q0,q1
+H q0
+Rx(-1.57079) q4
+H q5
+H q6
+Rx(1.57079) q0
+H q4
+H q5
+H q6
+CNOT q0,q1
+CNOT q1,q2
+CNOT q2,q3
+CNOT q3,q4
+CNOT q4,q5
+CNOT q5,q6
+Rz(0.088388*x2) q6
+CNOT q5,q6
+CNOT q4,q5
+CNOT q3,q4
+CNOT q2,q3
+CNOT q1,q2
+CNOT q0,q1
+Rx(-1.57079) q0
+H q4
+H q5
+H q6
+[0m
+-0.995957843303193
+[-0.11683452267646728, -0.6341833935820009, 1.1096570047967393]
+[5, 1, 11]
